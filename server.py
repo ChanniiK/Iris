@@ -22,7 +22,7 @@ def classify(a, b, c, d):
 	return prediction # Return the prediction
 
 # Default route set as 'home'
-@app.route('/home')
+@app.route('/')
 def home():
 	return render_template('home.html') # Render home.html
 
